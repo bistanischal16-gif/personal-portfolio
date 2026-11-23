@@ -1,4 +1,8 @@
 
 function sayHello() {
-    alert("Hello! Welcome to my portfolio.");
+    document.getElementById("helloPopup").classList.add("active");
+}
+
+function closePopup() {
+    document.getElementById("helloPopup").classList.remove("active");
 }
